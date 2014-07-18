@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FYLSwitch.h"
 
 @interface SXViewController : UIViewController
-
+{
+    NSMutableArray * testArrary1;
+    
+}
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6ED9ACD1191CA70A002018EF /* FYLSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED9ACD0191CA70A002018EF /* FYLSwitch.m */; };
 		6EF329FF191B193E00681910 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF329FE191B193E00681910 /* Foundation.framework */; };
 		6EF32A01191B193E00681910 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF32A00191B193E00681910 /* CoreGraphics.framework */; };
 		6EF32A03191B193E00681910 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF32A02191B193E00681910 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6ED9ACCF191CA70A002018EF /* FYLSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYLSwitch.h; sourceTree = "<group>"; };
+		6ED9ACD0191CA70A002018EF /* FYLSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYLSwitch.m; sourceTree = "<group>"; };
 		6EF329FB191B193E00681910 /* TestGCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EF329FE191B193E00681910 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6EF32A00191B193E00681910 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				6EF32A10191B193E00681910 /* Main.storyboard */,
 				6EF32A13191B193E00681910 /* SXViewController.h */,
 				6EF32A14191B193E00681910 /* SXViewController.m */,
+				6ED9ACCF191CA70A002018EF /* FYLSwitch.h */,
+				6ED9ACD0191CA70A002018EF /* FYLSwitch.m */,
 				6EF32A16191B193E00681910 /* Images.xcassets */,
 				6EF32A05191B193E00681910 /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				6EF32A15191B193E00681910 /* SXViewController.m in Sources */,
 				6EF32A0B191B193E00681910 /* main.m in Sources */,
 				6EF32A0F191B193E00681910 /* SXAppDelegate.m in Sources */,
+				6ED9ACD1191CA70A002018EF /* FYLSwitch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +463,7 @@
 				6EF32A2F191B193E00681910 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EF32A30191B193E00681910 /* Build configuration list for PBXNativeTarget "TestGCDTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				6EF32A32191B193E00681910 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
